@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.wrapper {
+    width: 1175px;
+    margin: 0 auto;
+    height: inherit;
+}
+.home-section {
+    background: #3695d7;
+    height: auto;
+}
+header {
+    padding-top: 55px;
+}
+.logo {
+    float: left;
+}
+.menu {
+    float: right;
+}
+.greeting {
+    clear: both;
+    padding: 230px 0 377px 0;
+}
+.greeting h1{
+    text-align: center;
+    font-size: 86px;
+    color: white;
+}
+.greeting h2 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+.company-info {
+    background: #ebf0f1;
+    height: auto;
+}
+.info-cards {
+    position: relative;
+    bottom: 200px;
+    background: white;
+    box-shadow: 1px 1px 0 1px rgba(155, 155, 155, 0.3);
+    border-radius: 10px;
+}
+.about-us {
+    width: 1140px;
+    height: 585px;
+    margin: 0 auto;
+}
+.about-us h2 {
+    color: #304050;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.icon {
+    text-align: center;
+    padding: 32px 0 32px 0;
+}
+.content {
+    width: 771px;
+    height: 155px;
+    color: #2c3e50;
+    font-size: 19px;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+}
+.button {
+    width: 280px;
+    margin: 65px auto;
+}
+form button {
+    width: 280px;
+    height: 78px;
+    box-shadow: 1px 1px 0 1px rgba(155, 155, 155, 0.3);
+    border-radius: 38px;
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 78px;
+    text-transform: uppercase;
+}
+.services {
+    padding-bottom: 120px ;
+}
+.services ul {
+    width: 1140px;
+    margin-top: -50px;
+}
+.services ul li {
+    display: inline-block;
+    list-style: none;
+}
+.first-service {
+    padding: 0 134px 0 55px;
+}
+.second-service {
+    padding-right: 144px;
+}
+figure {
+    text-align: center;
+}
+.first-service figcaption {
+    width: 278px;
+    height: 51px;
+    color: #2c3e50;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 25px;
+}
+.second-service figcaption {
+    width: 206px;
+    height: 51px;
+    color: #2c3e50;
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 25px;
+}
+.third-service figcaption {
+    width: 245px;
+    height: 51px;
+    color: #2c3e50;
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 55px;
+}
+.our-projects {
+    padding: 0 150px 0 150px;
+    background: #21af65;
+    height: auto;
+}
+.our-projects h2 {
+    color: white;
+    font-size: 40px;
+    line-height: 90px;
+    text-align: center;
+    padding-top: 20px;
+}
+.our-projects p {
+    width: 750px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-size: 19px;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 75px;
+}
+.slaider {
+    padding-bottom: 120px;
+}
+.slaider img {
+    width: 100%;
+}
+.short-info {
+    background: #ebf0f1;
+    height:auto;
+}
+.short-info p {
+    width: 1096px;
+    height: 90px;
+    color: #2c3e50;
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 95px 0 310px 0;
+}
+.our-clients {
+    background: #9b56b2;
+    height: auto;
+}
+.info-cards-2 {
+    width: 530px;
+    height: 520px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 200px;
+    background: white;
+    box-shadow: 1px 1px 0 1px rgba(155, 155, 155, 0.3);
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+}
+.info-cards-2 p {
+    width: 443px;
+    height: 120px;
+    margin: 0 auto;
+    color: #2c3e50;
+    font-size: 19px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.info-cards-3 p{
+    width: 443px;
+    height: 120px;
+    margin: 0 auto;
+    color: #2c3e50;
+    font-size: 19px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.info-cards-3 {
+    width: 530px;
+    height: 520px;
+    margin: 0 80px 0 0;
+    position: relative;
+    bottom: 200px;
+    background: white;
+    box-shadow: 1px 1px 0 1px rgba(155, 155, 155, 0.3);
+    border-radius: 10px;
+    float: right;
+    text-align: center;
+}
+.info-cards-2 h2,
+.info-cards-3 h2 {
+    font-weight: normal;
+    font-size: 40px;
+}
+.client {
+    position: relative;
+    bottom: 80px;
+    margin: 0 auto;
+    width: 260px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 36px;
+    clear: both;
+}
+.clients {
+    width: 1150px;
+}
+.clients ul {
+    padding-bottom: 115px;
+}
+.clients li {
+    vertical-align: middle;
+    display: inline-block;
+    list-style: none;
+
+}
+.microsoft {
+    padding: 0 95px 0 30px;
+}
+.samsung {
+    padding: 0 135px 0 0;
+}
+.ibm {
+    padding: 0 125px 0 0;
+}
+.our-team {
+    height: auto;
+    background:#ebf0f1;
+}
+.team-list li {
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+}
+.our-team h2 {
+    font-weight: 500;
+    color: #2c3e50;
+    font-size: 40px;
+    text-align: center;
+    padding: 105px 0 40px 0;
+}
+.about-team {
+    width: 750px;
+    height: 50px;
+    color: #2c3e50;
+    font-size: 19px;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto 80px;
+}
+.team-list {
+    text-align: center;
+    padding-bottom: 100px;
+}
+.john-dean {
+    width: 300px;
+    height: 410px;
+    padding-right: 100px;
+}
+.rebbeca-russo {
+    width: 300px;
+    height: 410px;
+    padding-right: 100px;
+}
+.peter-smith {
+    width: 300px;
+    height: 410px;
+}
+.team-names {
+    color: #2c3e50;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    padding: 35px 0 25px 0;
+}
+.lorem-description {
+    color: #2c3e50;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.social-buttons{
+    padding-top: 40px;
+}
+.social-buttons a {
+    display: block;
+    width: 34px;
+    height: 34px;
+}
+li.facebook  {
+    background-image: url("../images/facebook-icon.png");
+    background-repeat: no-repeat ;
+    padding-right: 18px;
+}
+li.twitter {
+    background-image: url("../images/twitter-icon.png");
+    background-repeat: no-repeat ;
+    padding-right: 18px;
+}
+li.google-plus {
+    background-image: url("../images/google-icon.png");
+    background-repeat: no-repeat ;
+}
+footer {
+    background: #304050;
+    height: 152px;
+}
+.footer-logo{
+    float: left;
+    padding-top: 68px;
+}
+nav {
+    float: right;
+    padding-top: 78px;
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+    color: #ecf0f1;
+    font-size: 20px;
+    font-weight: 400;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:visited {
+    color: #ecf0f1 ;
+}
+
+
