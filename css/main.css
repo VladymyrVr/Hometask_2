@@ -9,7 +9,7 @@ body {
     width: 1175px;
     margin: 0 auto;
     height: inherit;
-}g
+}
 .home-section {
     background: #3695d7;
     height: auto;
@@ -361,6 +361,7 @@ nav li {
     padding-left: 20px;
 }
 nav a {
+    color: #ecf0f1 ;
     text-decoration: none;
 }
 nav a:visited {
